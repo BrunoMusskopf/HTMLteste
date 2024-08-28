@@ -1,0 +1,161 @@
+<html>
+    <head>
+    </head>
+    <style>
+        
+        *{
+            
+            padding:0;
+            margin:0;           
+            font-size:0;
+            box-sizing: border-box;
+        }
+    
+         #mesa{
+            width:80%;
+             height: 80%;
+             display: inline-block;
+             background-color: forestgreen;
+             margin: 20%;
+             border-style: solid;
+             border-width:5%;
+             border-color:brown;
+
+           
+ 
+        }
+        
+        #principal{
+            height: 90%;
+        }
+        
+        .caçapa{
+            
+        }
+        
+        .espaco{
+            width: 90%; 
+            height:5%;
+            display: inline-block;
+            
+        }
+        .buraco{
+            width:5%;
+            height: 5%;          
+            background-color: black;
+            display: inline-block;
+           
+ 
+        }
+        
+        #buraco1{
+             border-bottom-right-radius: 100%;
+        }
+        #buraco2{
+            border-bottom-left-radius: 100%;
+        }
+        #buraco3{
+            border-top-right-radius: 100%;
+        }
+        #buraco4{
+            border-top-left-radius: 100%;
+        }
+        
+        .bola{
+            width:50px;
+            height:50px;
+            border-radius: 100px;             
+        }
+        
+  
+        
+        #bola1{
+            background-color:red;
+            margin-left:5%;
+            margin-top:10%;
+            display:inline-block;
+        }
+         #bola2{
+            background-color:blue;
+            margin-left:5%;
+            display:inline-block;
+        }
+        
+         #bola3{
+            background-color:yellow;
+            display:inline-block;
+        }
+        
+        #bola4{
+            background-color:orange;
+            margin-left:5%;
+            display:inline-block;
+        }
+        
+         #bola5{
+            background-color:yellowgreen;           
+            display:inline-block;
+        }
+          #bola6{
+            background-color:purple;           
+            display:inline-block;
+        }
+           #bolabranca{
+            background-color:white;
+            margin-left:65%;
+            display:inline-block;
+        }
+        
+        #bolabranca:active{
+            margin-left:0%;
+            transition: 3s;
+        }
+        
+          #bola8{
+            background-color:black;
+            margin-left:5%;
+            display:inline-block;
+        }
+        
+        #bola9{
+            background-color:dimgray;           
+            display:inline-block;
+        }
+        
+            #bola10{
+            background-color:fuchsia;
+            margin-left: 5%;
+            margin-bottom: 10%;
+            display:inline-block;
+        }
+       
+       
+    </style>
+    <body>
+        <div id="mesa" >
+                <div class = 'caçapa'>
+                   <div class="buraco" id = 'buraco1'></div>
+                    <div class = 'espaco'></div>
+                    <div class = 'buraco' id = 'buraco2'></div>
+                </div>
+                    <div id = 'principal'>
+                        <div id = 'bola1' class = 'bola'></div> <br>
+                        <div id = 'bola2' class = 'bola'></div> 
+                        <div id = 'bola3' class = 'bola'></div> <br>
+                        <div id = 'bola4' class = 'bola'></div>
+                        <div id = 'bola5' class = 'bola'></div>
+                        <div id = 'bola6' class = 'bola'></div>
+                        <div id = 'bolabranca' class = 'bola'></div> <br>
+                        <div id = 'bola8' class = 'bola'></div>
+                        <div id = 'bola9' class = 'bola'></div> <br>
+                        <div id = 'bola10' class = 'bola'></div>
+                   </div>
+                <div class = 'caçapa'>
+                    <div class = 'buraco' id = 'buraco3'></div>
+                    <div class = 'espaco'></div>
+                    <div class = 'buraco' id = 'buraco4'></div>    
+                </div>
+            
+        </div>
+    </body>
+</html>
